@@ -259,7 +259,7 @@ const buildOptions: esbuild.BuildOptions = {
   // import.meta.url — CJS compat (esbuild sets import.meta to {} in CJS)
   define: {
     'MACRO.VERSION': JSON.stringify(version),
-    'MACRO.PACKAGE_URL': JSON.stringify('@anthropic-ai/claude-code'),
+    'MACRO.PACKAGE_URL': JSON.stringify('amecode'),
     'MACRO.ISSUES_EXPLAINER': JSON.stringify(
       'report issues at https://github.com/anthropics/claude-code/issues'
     ),

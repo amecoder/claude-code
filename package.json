@@ -1,13 +1,13 @@
 {
-  "name": "@anthropic-ai/claude-code",
-  "version": "0.0.0-leaked",
-  "description": "Anthropic Claude Code CLI — leaked source (2026-03-31). Not an official release.",
+  "name": "amecode",
+  "version": "0.1.0",
+  "description": "amecode — Claude Code fork for local study and experimentation.",
   "license": "UNLICENSED",
   "private": true,
   "type": "module",
   "main": "src/entrypoints/cli.tsx",
   "bin": {
-    "claude": "src/entrypoints/cli.tsx"
+    "amecode": "src/entrypoints/cli.tsx"
   },
   "scripts": {
     "build": "bun scripts/build-bundle.ts",
