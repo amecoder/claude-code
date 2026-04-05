@@ -1756,5 +1756,8 @@ export function setPromptId(id: string | null): void {
   STATE.promptId = id
 }
 
-
+// Stub: REPL bridge active state (originally in bridge-mode builds)
+export function isReplBridgeActive(): boolean {
+  return false
+}
 
